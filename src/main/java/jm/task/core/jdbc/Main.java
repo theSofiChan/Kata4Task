@@ -11,9 +11,9 @@ public class Main {
         userDao.saveUser("Geralt", "OfRivia", (byte) 40);
         userDao.saveUser("Yennefer", "OfVengerberg", (byte) 31);
         userDao.saveUser("Jaskier", "JustJaskier", (byte) 25);
-        //System.out.println(userDao.getAllUsers());
-        //userDao.removeUserById(1);
-        //System.out.println(userDao.getAllUsers());
+        System.out.println(userDao.getAllUsers());
+        userDao.removeUserById(1);
+        System.out.println(userDao.getAllUsers());
         //userDao.getAllUsers();
         //System.out.println(userDao.getAllUsers());
         //userDao.cleanUsersTable();
